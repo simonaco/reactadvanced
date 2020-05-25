@@ -2,7 +2,9 @@ import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { Alert } from '@goodreads-v2/component-library'
+import {typography} from '@goodreads-v2/component-library'
 
+const {Artifika} = typography
 function App() {
   return (
     <div className="App">
@@ -21,7 +23,7 @@ function App() {
         </a>
       </header>
       <main>
-        <Alert />
+      <Artifika>Text</Artifika>
       </main>
     </div>
   )

@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { ThemeProvider } from 'styled-components';
+import {theme, GlobalFonts} from '@goodreads-v2/component-library'
 
 ReactDOM.render(
   <React.StrictMode>
+    <ThemeProvider theme={theme}>
+      <GlobalFonts/>
     <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

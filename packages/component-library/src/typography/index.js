@@ -1,4 +1,4 @@
 // packages/component-library/src/typography/index.js
 import Artifika from './artifika'
 
-export { Artifika }
+export const typography = { Artifika }
