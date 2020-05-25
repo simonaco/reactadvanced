@@ -5,6 +5,10 @@ import {
   REGISTRATION_SUCCEEDED,
   REGISTRATION_FAILED,
 } from '../../components/register/actions'
+import {
+  CHECK_AUTH_SUCCEEDED,
+  CHECK_AUTH_FAILED,
+} from '../../containers/auth-checker/actions'
 
 const stripStatus = (message) => {
   const status = new RegExp(/\d{3}/g)
@@ -55,6 +59,25 @@ export const watchRegistration = function* watchPerformRegistration({
       type: REGISTRATION_FAILED,
       payload: {
         error: errorMessageMap[status],
+      },
+    })
+  }
+}
+
+export const watchAuth = function* watchAuthCheck() {
+  try {
+    const { data } = yield call(api.checkToken)
+    yield put({
+      type: CHECK_AUTH_SUCCEEDED,
+      payload: {
+        username: data.username,
+      },
+    })
+  } catch (e) {
+    yield put({
+      type: CHECK_AUTH_FAILED,
+      payload: {
+        error: 'Not authenticated',
       },
     })
   }

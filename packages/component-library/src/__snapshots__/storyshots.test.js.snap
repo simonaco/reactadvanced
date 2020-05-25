@@ -181,42 +181,6 @@ exports[`Storyshots Components|Elements.BookCard Book Card with configurable sty
           </svg>
         </li>
       </ul>
-      <div
-        className="css-11cb88r"
-      >
-        <div
-          className="css-4cffwv"
-        >
-          <select
-            className="css-6wezz5"
-            defaultValue="Not reading..."
-            id="book-action"
-            name="book-action"
-            onChange={[Function]}
-          >
-            <option
-              value="start-reading"
-            >
-              Start reading...
-            </option>
-            <option
-              value="not-started"
-            >
-              Not reading...
-            </option>
-          </select>
-          <svg
-            className="css-6ibwe0"
-            fill="currentcolor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7 10l5 5 5-5z"
-            />
-          </svg>
-        </div>
-      </div>
       <h3
         className="sc-AxjAm iqgaMn"
         color="#2d8fd5"
@@ -431,42 +395,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -675,42 +603,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -919,42 +811,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -1163,42 +1019,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -1407,42 +1227,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -1651,42 +1435,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -1895,42 +1643,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -2139,42 +1851,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -2383,42 +2059,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -2627,42 +2267,6 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
             </svg>
           </li>
         </ul>
-        <div
-          className="css-11cb88r"
-        >
-          <div
-            className="css-4cffwv"
-          >
-            <select
-              className="css-6wezz5"
-              defaultValue="Not reading..."
-              id="book-action"
-              name="book-action"
-              onChange={[Function]}
-            >
-              <option
-                value="start-reading"
-              >
-                Start reading...
-              </option>
-              <option
-                value="not-started"
-              >
-                Not reading...
-              </option>
-            </select>
-            <svg
-              className="css-6ibwe0"
-              fill="currentcolor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10l5 5 5-5z"
-              />
-            </svg>
-          </div>
-        </div>
         <h3
           className="sc-AxjAm iqgaMn"
           color="#2d8fd5"
@@ -2692,6 +2296,67 @@ exports[`Storyshots Components|Elements.BookGrid Book Grid for list 1`] = `
     </div>
   </div>
 </div>
+`;
+
+exports[`Storyshots Components|Elements.NavBar Navbar with wrapper 1`] = `
+Array [
+  <div
+    className="css-9suweq"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <h1
+        className="sc-AxjAm iLVLdl"
+        color="#2d8fd5"
+        fontFamily="Artifika"
+        fontSize={
+          Array [
+            12,
+            12,
+            13,
+            13,
+            13,
+            14,
+          ]
+        }
+        fontWeight="bold"
+      >
+        DashBoard
+      </h1>
+    </a>
+    <div
+      className="css-1ntkiwo"
+    />
+    <a
+      href="/login"
+      onClick={[Function]}
+    >
+      <h1
+        className="sc-AxjAm iLVLdl"
+        color="#2d8fd5"
+        fontFamily="Artifika"
+        fontSize={
+          Array [
+            12,
+            12,
+            13,
+            13,
+            13,
+            14,
+          ]
+        }
+        fontWeight="bold"
+      >
+        Login
+      </h1>
+    </a>
+  </div>,
+  <div>
+    I'm the dashboard component
+  </div>,
+]
 `;
 
 exports[`Storyshots Components|Pages.Login Login prompt 1`] = `
@@ -2778,6 +2443,130 @@ exports[`Storyshots Components|Pages.Login Login prompt 1`] = `
           onClick={[Function]}
         >
           Login
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components|Pages.Register Register prompt 1`] = `
+<div
+  className="css-tm0ebp"
+>
+  <div
+    className="css-170h25s"
+  >
+    <div
+      className="css-1mrlfg6"
+    >
+      <div
+        className="css-h9fdzh"
+      >
+        <label
+          className="css-knfhfe"
+          htmlFor="email"
+        >
+          <p
+            className="sc-AxjAm eXlAEU"
+            fontFamily="\\"Verdana\\", sans-serif"
+            fontSize={
+              Array [
+                3,
+                3,
+                4,
+                4,
+                5,
+                5,
+              ]
+            }
+          >
+            Email
+          </p>
+        </label>
+        <input
+          className="css-kplop5"
+          id="email"
+          name="email"
+          onChange={[Function]}
+          placeholder="jane@example.com"
+          type="email"
+        />
+      </div>
+      <div
+        className="css-h9fdzh"
+      >
+        <label
+          className="css-knfhfe"
+          htmlFor="Password"
+        >
+          <p
+            className="sc-AxjAm eXlAEU"
+            fontFamily="\\"Verdana\\", sans-serif"
+            fontSize={
+              Array [
+                3,
+                3,
+                4,
+                4,
+                5,
+                5,
+              ]
+            }
+          >
+            Password
+          </p>
+        </label>
+        <input
+          className="css-kplop5"
+          id="password"
+          name="password"
+          onChange={[Function]}
+          placeholder="your password here..."
+          type="password"
+        />
+      </div>
+      <div
+        className="css-h9fdzh"
+      >
+        <label
+          className="css-knfhfe"
+          htmlFor="Password"
+        >
+          <p
+            className="sc-AxjAm eXlAEU"
+            fontFamily="\\"Verdana\\", sans-serif"
+            fontSize={
+              Array [
+                3,
+                3,
+                4,
+                4,
+                5,
+                5,
+              ]
+            }
+          >
+            Confirm Password
+          </p>
+        </label>
+        <input
+          className="css-kplop5"
+          id="re-password"
+          name="re-password"
+          onChange={[Function]}
+          placeholder="confirm the password..."
+          type="password"
+        />
+      </div>
+      <div
+        className="css-28fdfd"
+      >
+        <button
+          className="css-r257o7"
+          onClick={[Function]}
+        >
+          Register
         </button>
       </div>
     </div>
