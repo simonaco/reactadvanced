@@ -1,0 +1,48 @@
+{
+  "name": "@goodreads-v2/monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@rebass/forms": "^4.0.6",
+    "@rebass/layout": "^4.0.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "rebass": "^4.0.7",
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "create-react-app": "^3.4.1",
+    "lerna": "^3.21.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "react-test-renderer": "^16.13.1",
+    "serve": "^11.3.0"
+  },
+  "scripts": {
+    "build:components": "lerna exec npm run build --scope=@goodreads-v2/component-library",
+    "storybook": "lerna exec npm run storybook --scope=@goodreads-v2/component-library",
+    "build-storybook": "lerna exec npm run build-storybook --scope=@goodreads-v2/component-library",
+    "start:app": "lerna exec npm start --scope=@goodreads-v2/goodreads",
+    "start:server": "lerna exec npm run server:dev --scope=jungle-jim",
+    "start:goodreads": "npm-run-all --parallel start:server start:app",
+    "clean:package-locks": "find . -type f -name 'package-lock.json' -exec rm {} +",
+    "clean:lerna": "lerna clean",
+    "clean:root-modules": "rm -rf node_modules",
+    "clean": "npm-run-all clean:lerna clean:root-modules clean:package-locks",
+    "bootstrap": "npm i && lerna bootstrap",
+    "test:components": "lerna exec npm test --scope=@goodreads-v2/component-library"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaschevici/goodreads-v2.git"
+  },
+  "keywords": [],
+  "author": "@arty_das",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adaschevici/goodreads-v2/issues"
+  },
+  "homepage": "https://github.com/adaschevici/goodreads-v2#readme"
+}
