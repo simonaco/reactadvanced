@@ -4,6 +4,7 @@ import commonjs from '@rollup/plugin-commonjs'
 import babel from 'rollup-plugin-babel'
 import { terser } from 'rollup-plugin-terser'
 import bundleSize from 'rollup-plugin-bundle-size'
+import copy from 'rollup-plugin-copy'
 
 export default {
   input: 'src/index.js',
@@ -18,6 +19,8 @@ export default {
     'prop-types',
     'styled-components',
     'styled-system',
+    './Artifika-Regular.woff',
+    './Artifika-Regular.woff2'
   ],
   plugins: [
     resolve(),
@@ -28,6 +31,14 @@ export default {
       namedExports: {
         'react-is': ['typeOf', 'isElement', 'isValidElementType'],
       },
+    }),
+    copy({
+      targets: [
+        {
+          src: ["src/fonts/*.woff*"],
+          dest: "lib/fonts"
+        }
+      ]
     }),
     terser(),
     bundleSize(),

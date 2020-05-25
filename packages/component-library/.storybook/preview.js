@@ -1,9 +1,25 @@
-// .storybook/preview.js
-import { configure } from '@storybook/react'
+// packages/component-library/.storybook/preview.js
+import React from 'react'
+import { addDecorator, addParameters } from '@storybook/react'
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
+import { ThemeProvider } from 'styled-components'
+import { withConsole } from '@storybook/addon-console'
 
-function loadStories() {
-  require('../src/components/alert/index.stories.js')
-  // You can require as many stories as you need.
-}
+import theme from '../src/theme'
 
-configure(loadStories, module)
+import GlobalFonts from '../src/fonts'
+
+addParameters({
+  viewport: {
+    viewports: INITIAL_VIEWPORTS,
+  },
+})
+
+addDecorator(storyFn => (
+  <ThemeProvider theme={theme}>
+    <GlobalFonts />
+    {storyFn()}
+  </ThemeProvider>
+))
+
+addDecorator((storyFn, context) => withConsole()(storyFn)(context))

@@ -1,5 +1,6 @@
 import React from 'react'
 import Alert from '.'
+import GlobalStyle from '../../fonts'
 
 export default {
   component: Alert,
@@ -8,7 +9,10 @@ export default {
 
 export const withText = () => {
   console.log('With Text')
-  return <Alert message="Hohoho" />
+  return <div>
+    <GlobalStyle></GlobalStyle>
+    <Alert message="Hohoho" />
+    </div>
 }
 
 export const withEmoji = () => <Alert message="😀 😎 👍 💯" />
