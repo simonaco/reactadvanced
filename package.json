@@ -1,0 +1,37 @@
+{
+  "name": "@goodreads-v2/monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "create-react-app": "^3.4.1",
+    "lerna": "^3.21.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "serve": "^11.3.0",
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5"
+  },
+  "scripts": {
+    "build:components": "lerna exec npm run build --scope=@goodreads-v2/component-library",
+    "storybook": "lerna exec npm run storybook --scope=@goodreads-v2/component-library",
+    "build-storybook": "lerna exec npm run build-storybook --scope=@goodreads-v2/component-library",
+    "start:goodreads": "lerna exec npm start --scope=@goodreads-v2/goodreads",
+    "clean:package-locks": "find . -type f -name 'package-lock.json' -exec rm {} +",
+    "clean:lerna": "lerna clean",
+    "clean:root-modules": "rm -rf node_modules",
+    "clean": "npm-run-all clean:lerna clean:root-modules clean:package-locks",
+    "bootstrap": "npm i && lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaschevici/goodreads-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adaschevici/goodreads-v2/issues"
+  },
+  "homepage": "https://github.com/adaschevici/goodreads-v2#readme"
+}
