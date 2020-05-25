@@ -1,0 +1,74 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1.6
+jobs:
+  build-and-test-components:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run: npm run bootstrap
+            - run: npm run test:components
+            - run: npm run build:components
+            - save_cache:
+                key: components-lib-{{ .Revision }}
+                paths:
+                  - packages/component-library/lib
+                  - packages/component-library/lib/fonts
+
+  test-goodreads:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - restore_cache:
+                keys:
+                  - components-lib-{{ .Revision }}
+            - run: npm run bootstrap
+            - run: npm run test:goodreads
+  build-goodreads:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - restore_cache:
+                keys:
+                  - components-lib-{{ .Revision }}
+            - run: npm run bootstrap
+            - run: npm run build:goodreads
+            - save_cache:
+                key: goodreads-v2-{{ .Revision }}
+                paths:
+                  - packages/goodreads/build
+  deploy-goodreads:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - restore_cache:
+                keys:
+                  - goodreads-v2-{{ .Revision }}
+            - run:
+                name: Netlify Deploy
+                command: npx netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_ACCESS_TOKEN --prod --dir=packages/goodreads/build
+workflows:
+    build-components-and-app:
+      jobs:
+        - build-and-test-components
+        - test-goodreads:
+            requires:
+              - build-and-test-components
+        - build-goodreads:
+            requires:
+              - build-and-test-components
+        - deploy-goodreads:
+            requires:
+              - build-goodreads
